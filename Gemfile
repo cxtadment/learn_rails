@@ -19,6 +19,7 @@ gem 'google_drive'
 gem 'high_voltage' 
 gem 'simple_form' 
 gem 'binding_of_caller'
+gem 'rails_layout'
 group :development do
 	gem 'better_errors' 
 	gem 'quiet_assets' 
