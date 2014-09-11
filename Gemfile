@@ -1,3 +1,4 @@
+
 source 'https://rubygems.org' 
 ruby '2.1.1'
 gem 'rails', '4.1.1'
@@ -24,4 +25,8 @@ group :development do
 	gem 'better_errors' 
 	gem 'quiet_assets' 
 	gem 'rails_layout'
+	
+end
+group :production do
+	gem 'pg'
 end
